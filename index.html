@@ -4,10 +4,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+    ">
     <link rel="stylesheet" href="style.css">
     <title>Hot Gadgets</title>
 </head>
 <body>
     
+
+    <div class="container d-flex justify-content-between">
+      <img src="images/logo.png" alt="">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+    </div>
+<div class="bgcont">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h1>Mackbook Pro</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                </p>
+              <button class="buy-now">Buy Now →</button>
+              </div>
+              <div class="col-md-5">
+         <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h1>Google Home</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur explicabo labore saepe a quas </p>
+              <button class="buy-now">Buy Now →</button>
+              </div>
+              <div class="col-md-5">
+            <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h1>JBL Speaker</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas non exercitationem ad eaque hic?</p>
+              <button class="buy-now">Buy Now →</button>
+              </div>
+              <div class="col-md-5">
+            <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>  
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <div class="headline d-flex justify-content-between align-items-center">
+      <h1 class="sec">Smartphones</h1> 
+      <a class="page" href="#nextpage">See All</a>
+    </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redmi Note 10 Lite</h5>
+              <p class="card-text">This is a longer card  text below as a natural lead-in to additional content.</p>
+              <h6>$999</h6>
+              <button class="buy-now">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 11 Pro</h5>
+              <p class="card-text">This is a longer card  text below as a natural lead-in to additional content.</p>
+              <h6>$899</h6>
+              <button class="buy-now">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Samsung Note 10+
+              </h5>
+              <p class="card-text">This is a longer card  text below as a natural lead-in to additional content.</p>
+              <h6>$699</h6>
+              <button class="buy-now">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="sec">Laptop</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asus Vivobook</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h6>$999</h6>
+              <button class="buy-now">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Razer Blade 15</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h6>$2700</h6>
+              <button class="buy-now">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Xiaomi Notebook</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additiona.</p>
+              <h6>$899</h6>
+              <button class="buy-now">Buy Now →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex flex-column mb-3 align-items-center">
+      <h1 class="cats">Categories</h1>
+      <img class="" src="images/Rectangle 5349.png" alt=""></div>
+      <div class="row">
+        <div class="col-md-3 d-flex align-items-center firstmages">
+        <div class="mages"> <img src="images/Categories/bag.png" alt="">
+        <h6>Bag</h6></div>
+      </div>
+      <div class="col-md-3 d-flex flex-column mb-3 secondmages">
+        <div class="mages beauty">   <img src="images/Categories/perfume.png" alt="">
+        <h6>Beauty</h6></div>
+        <div class="mages"><img src="images/Categories/shoe.png" alt="">
+        <h6>Shoes</h6></div>
+      </div>
+        <div class="col-md-6">
+          <img src="images/Categories/pale-order.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 </body>
 </html>
